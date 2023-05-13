@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clock Block</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="delete.css">
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><b><i>Clock BLock</i></b></a>
+    <nav class="navbar  navbar-expand-lg  backgroundGradient ">
+        <a class="navbar-brand effect whitetext effect" href="#"><b><i>Clock BLock</i></b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -18,25 +19,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link effect whitetext" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">LinkedIn</a>
-                <a class="dropdown-item" href="#">Github</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Twitter</a>
-              </div>
+              <a class="nav-link effect whitetext" href="#">Blogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Subscribe</a>
+              <a class="nav-link effect whitetext" href="#">LinkedIn</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link effect whitetext" href="#">Github</a>
+            </li>
+            </li>
+            
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search In The Website" aria-label="Search">
@@ -47,7 +42,7 @@
 
       <!-- JUMBOTRON -->
 
-      <div class="jumbotron my-4">
+      <div class="jumbotron">
         <h1 class="display-4">Current Time Is => <span id="time"></span></h1>
         <h2 class=>Date:  <span id="day"></span></h2>
         <p class="lead">This project has been designed with basic HTML and Javascript. Thank you for your time.</p>

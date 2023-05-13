@@ -1,0 +1,40 @@
+.whitetext{
+    color: white
+}
+
+.backgroundGradient{
+        /* ff 3.6+ */
+        background:-moz-radial-gradient(circle at 50% 50%, rgba(49, 53, 180, 1) 0%, rgba(3, 27, 86, 1) 100%);
+    
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-radial-gradient(circle at 50% 50%, rgba(49, 53, 180, 1) 0%, rgba(3, 27, 86, 1) 100%);
+    
+        /* opera 11.10+ */
+        background:-o-radial-gradient(circle at 50% 50%, rgba(49, 53, 180, 1) 0%, rgba(3, 27, 86, 1) 100%);
+    
+        /* ie 10+ */
+        background:-ms-radial-gradient(circle at 50% 50%, rgba(49, 53, 180, 1) 0%, rgba(3, 27, 86, 1) 100%);
+    
+        /* global 92%+ browsers support */
+        background:radial-gradient(circle at 50% 50%, rgba(49, 53, 180, 1) 0%, rgba(3, 27, 86, 1) 100%);
+}
+
+.navbar{
+    height: 60px;
+    border: 2px solid white;
+}
+
+.effect:hover::after{
+    /* transform: scale(1.1); */
+    transition: 400ms;
+    width: 100%;
+  }
+  
+  .effect::after{
+    content:'';
+    display:block;
+    height: 4px;
+    width:0;
+    background:#c4c4f7;
+    transition:all .5
+  }
