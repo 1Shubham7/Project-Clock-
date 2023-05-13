@@ -38,3 +38,12 @@
     background:#c4c4f7;
     transition:all .5
   }
+
+  .buldge:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+  }
+
+.largefont{
+    font-size: larger;
+}
